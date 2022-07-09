@@ -9,7 +9,7 @@ export default function TechnoAdd() {
           <input type="text" name="techno-name" id="techno-name" />
           <br />
           <label htmlFor="techno-category">Category:</label>
-
+          <br />
           <select name="techno-category" id="techno-category">
             <option value="">Select a category</option>
             <option value="front">Front</option>
@@ -19,13 +19,14 @@ export default function TechnoAdd() {
           </select>
           <br />
           <label htmlFor="techno-description">Description:</label>
+          <br />
           <textarea
             name="techno-description"
             id="techno-description"
             cols="10"
             rows="10"
           ></textarea>
-          <br/>
+          <br />
           <input type="submit" value="Add Techno" />
         </form>
       </div>

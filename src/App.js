@@ -1,12 +1,14 @@
 import "./css/app.css";
-import "./pages/Home";
-import "./pages/TechnoAdd";
+import Home from "./pages/Home";
+import TechnoAdd from "./pages/TechnoAdd";
+import TechnoList from "./pages/TechnoList"
 
 function App() {
   return (
     <>
       <Home />
       <TechnoAdd />
+      <TechnoList />
     </>
   );
 }
