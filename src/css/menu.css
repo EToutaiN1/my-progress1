@@ -1,0 +1,9 @@
+.menu{
+    font-size: 1.2em;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between; 
+}
