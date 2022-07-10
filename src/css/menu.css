@@ -1,9 +1,26 @@
-.menu{
-    font-size: 1.2em;
+.menu {
+  font-size: 1.2em;
 }
 
-ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around; 
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+  transition: all ease 0.1s;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.active-link{
+    font-weight:bold;
+    color: blue;
 }
