@@ -1,8 +1,20 @@
-export default function TechnoList() {
-    return(
-        <div className="techno-list">
-            <h1>All Techno</h1>
-            <p>TO DO display all technos added</p>
-        </div>
-    )
+export default function TechnoList(props) {
+  const { technos } = props;
+
+  return (
+    <div className="techno-list">
+      <h1>All Techno</h1>
+      <div>
+        {technos.map((techno) => (
+          <div key={techno.technoid}>
+            <h2>{techno.technoname}</h2>
+            <h3>Category</h3>
+            <p>{techno.technocategory}</p>
+            <h3>Description</h3>
+            <p>{techno.technodescription}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }
